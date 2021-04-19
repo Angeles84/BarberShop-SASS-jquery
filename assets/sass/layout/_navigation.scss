@@ -1,0 +1,23 @@
+.logo {
+  .logo__image { 
+    width: 6rem;
+}
+}
+
+nav {
+  .nav__item-blog {
+    color: $fuzzy-wuzzy;
+    transition: all 0.5s ease;
+    &:hover {
+      color: $spanish-pink;
+    }
+  }
+}
+
+.nav__item-link {
+  transition: all 0.5s ease;
+  color: $white;
+  &:hover {
+    color: $light-gray;
+  }
+}

@@ -1,0 +1,38 @@
+// esquema de colores 
+
+//primer esquema de colores
+$white: #ffffff;
+$platinum: #e8e8e8;
+$light-gray: #d1d1d1;
+
+//segundo esquema de colores
+$fuzzy-wuzzy: #e56353;
+$ruddy-pink: #ef7f6d;
+$spanish-pink: #ecbcba;
+
+//tercer esquema de colores
+$eerie-black: #121619;
+$raisin-black: #222323;
+$nickel: #6c6e70;
+
+//tipografía
+$playfair: 'Playfair Display', serif;
+$roboto: 'Roboto', sans-serif;
+
+//peso de las fuentes
+$light-3: 300;
+$regular: 400;
+$super-black: 900;
+
+//tamaño de las fuentes
+$xx-large: 70px;
+$x-large: 30px;
+$large: 18px;
+$medium: 16px;
+$small: 12px;
+
+//pagination
+$pagination-active-bg: $nickel;
+$pagination-border-radius: 20px;
+$link-color: $eerie-black;
+$pagination-disabled-color: $nickel;
