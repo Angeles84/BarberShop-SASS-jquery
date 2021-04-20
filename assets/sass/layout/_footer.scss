@@ -1,8 +1,16 @@
 .footer {
     text-align: center;
-    .logo__image{
+    .footer__logo {
         width: 8rem;
-        padding-top: 4rem;
-        padding-bottom: 3rem;
+        padding-top: 4.5rem;
+        padding-bottom: 3.5rem;
     } 
+}
+
+@media (max-width: 768px) {
+    .footer .footer__logo {
+        width: 6.2rem;
+        padding-top: 5.5rem;
+        padding-bottom: 4.5rem;
+    }
 }

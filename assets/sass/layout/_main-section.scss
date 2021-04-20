@@ -1,22 +1,29 @@
 .main {
-    margin-top: 4rem;
+    margin-top: 6rem;
+    .main__title {
+        margin-bottom: 3.8rem;
+    }
 }
 
-.main__title {
-    margin-bottom: 2.8rem;
-}
 
 .main__paragraph {
     margin-bottom: 2.5rem;
-       span {
+        span {
            color: $ruddy-pink;
        }
 }
 
 @media (max-width:768px) {
+    .main {
+        margin-top: 4.5rem;
+    .main__title {
+        margin-bottom: 2.6rem;
+    }
+    }
     .main__container {
         max-width: 350px;
-        padding: 0;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 }
 
@@ -24,11 +31,8 @@
     background-color: $platinum;
 
     .pagination__container {
-        max-width: 265px;
-        text-align: center;
         padding-top: 3.3rem;
         padding-bottom: 2.3rem;
-        margin: 0 auto;
     }
 }
 
@@ -47,6 +51,21 @@
 
 .pagination__nav {
     border-radius: $pagination-border-radius;
+    .page-link {
+        font-size: $medium;
+        font-family: $roboto;
+        padding: 0.47rem 1.1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .pagination {
+        margin-left: 0.5rem;
+    }
+    .pagination__nav .page-link {
+        font-size: $x-medium;
+        padding: 0.4rem 0.9rem;
+    }
 }
 
 .naomi {
@@ -67,6 +86,8 @@
         font-size: $small;
         font-weight: $regular;
         margin-top: 2.3rem;
+        color: $nickel;
+        line-height: 2.2rem;
     }
 }
 
@@ -84,28 +105,31 @@
 }
 
 @media (max-width: 768px) {
-      .naomi__foto{
-          width: 10rem;
-          border-radius: 130px;
-          margin-left: 3.2rem;
+   .naomi__foto{
+        width: 9.5rem;
+        border-radius: 130px;
+        margin-left: 3.5rem;
     
-      }
-      .naomi__title {
-          text-align: center;
-          margin-left: 0;
-          padding-left: 0;
-      }
-      .naomi__subtitle {
-          text-align: center;
-          margin-left: 0.9rem;
-      }
+    }
+    .naomi__title {
+        text-align: center;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .naomi__subtitle {
+        text-align: center;
+        margin-left: 0.9rem;
+    }
     
 }
 @media (max-width: 768px) {
-      .naomi {
-          padding-bottom: 4rem;
-      }
-      .naomi__container {
-          max-width: 260px;
-      }
+    .naomi {
+        padding-bottom: 4rem;
+    }
+    .naomi__container {
+        max-width: 260px;
+        margin: 0 auto;
+        padding-left: 0;
+       
+    }
 }

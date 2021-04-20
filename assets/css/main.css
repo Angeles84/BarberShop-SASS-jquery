@@ -4520,12 +4520,12 @@ textarea.form-control-lg {
 }
 
 .page-item:first-child .page-link {
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
+  border-top-left-radius: 35px;
+  border-bottom-left-radius: 35px;
 }
 .page-item:last-child .page-link {
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-top-right-radius: 35px;
+  border-bottom-right-radius: 35px;
 }
 
 .pagination-lg .page-link {
@@ -10765,6 +10765,7 @@ h3, .h3 {
   font-weight: 900;
   font-size: 30px;
   font-style: italic;
+  color: #222323;
 }
 
 h4, .h4 {
@@ -10778,16 +10779,16 @@ h4, .h4 {
 h5, .h5 {
   font-family: "Playfair Display", serif;
   font-weight: 400;
-  font-weight: 18px;
+  font-size: 18px;
   color: #6c6e70;
 }
 
 p {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
   color: #6c6e70;
-  line-height: 2.2rem;
+  line-height: 2.7rem;
 }
 
 .header__container {
@@ -10801,11 +10802,13 @@ p {
 
 @media (max-width: 768px) {
   .header__container {
-    padding-top: 14rem;
+    padding-top: 16rem;
   }
 
   .header__title {
-    margin: 0;
+    font-size: 50px;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 }
 .header__icono-flecha {
@@ -10816,24 +10819,24 @@ p {
 
 @media (max-width: 768px) {
   .header__icono-flecha {
-    margin-top: 5rem;
+    margin-top: 10.5rem;
     width: 4rem;
   }
 }
-.logo .logo__image {
-  width: 7rem;
+.nav__container .nav__logo {
+  width: 6.2rem;
 }
 
-nav .nav-link {
+.nav .nav-link {
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 300;
 }
-nav .nav__item-blog {
+.nav .nav__item-blog {
   color: #e56353;
   transition: all 0.5s ease;
 }
-nav .nav__item-blog:hover {
+.nav .nav__item-blog:hover {
   color: #ecbcba;
 }
 
@@ -10846,11 +10849,10 @@ nav .nav__item-blog:hover {
 }
 
 .main {
-  margin-top: 4rem;
+  margin-top: 6rem;
 }
-
-.main__title {
-  margin-bottom: 2.8rem;
+.main .main__title {
+  margin-bottom: 3.8rem;
 }
 
 .main__paragraph {
@@ -10861,20 +10863,25 @@ nav .nav__item-blog:hover {
 }
 
 @media (max-width: 768px) {
+  .main {
+    margin-top: 4.5rem;
+  }
+  .main .main__title {
+    margin-bottom: 2.6rem;
+  }
+
   .main__container {
     max-width: 350px;
-    padding: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 .pagination__sec {
   background-color: #e8e8e8;
 }
 .pagination__sec .pagination__container {
-  max-width: 265px;
-  text-align: center;
   padding-top: 3.3rem;
   padding-bottom: 2.3rem;
-  margin: 0 auto;
 }
 
 .pagination li {
@@ -10889,9 +10896,24 @@ nav .nav__item-blog:hover {
 }
 
 .pagination__nav {
-  border-radius: 20px;
+  border-radius: 35px;
+}
+.pagination__nav .page-link {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  padding: 0.47rem 1.1rem;
 }
 
+@media (max-width: 768px) {
+  .pagination {
+    margin-left: 0.5rem;
+  }
+
+  .pagination__nav .page-link {
+    font-size: 14px;
+    padding: 0.4rem 0.9rem;
+  }
+}
 .naomi {
   margin-top: 2rem;
   padding-top: 4rem;
@@ -10911,6 +10933,8 @@ nav .nav__item-blog:hover {
   font-size: 12px;
   font-weight: 400;
   margin-top: 2.3rem;
+  color: #6c6e70;
+  line-height: 2.2rem;
 }
 
 .naomi__subtitle {
@@ -10927,9 +10951,9 @@ nav .nav__item-blog:hover {
 
 @media (max-width: 768px) {
   .naomi__foto {
-    width: 10rem;
+    width: 9.5rem;
     border-radius: 130px;
-    margin-left: 3.2rem;
+    margin-left: 3.5rem;
   }
 
   .naomi__title {
@@ -10950,32 +10974,41 @@ nav .nav__item-blog:hover {
 
   .naomi__container {
     max-width: 260px;
+    margin: 0 auto;
+    padding-left: 0;
   }
 }
 .footer {
   text-align: center;
 }
-.footer .logo__image {
+.footer .footer__logo {
   width: 8rem;
-  padding-top: 4rem;
-  padding-bottom: 3rem;
+  padding-top: 4.5rem;
+  padding-bottom: 3.5rem;
 }
 
-.main__container .button {
+@media (max-width: 768px) {
+  .footer .footer__logo {
+    width: 6.2rem;
+    padding-top: 5.5rem;
+    padding-bottom: 4.5rem;
+  }
+}
+.main__container .main__button {
   padding: 0.7rem 1.1rem 0.7rem 1.1rem;
   margin-top: 2.5rem;
   margin-bottom: 3.8rem;
   transition: all 1s ease;
 }
-.main__container .button:hover {
+.main__container .main__button:hover {
   background-color: #d1d1d1;
   border-color: #d1d1d1;
 }
-.main__container .button:focus {
+.main__container .main__button:focus {
   border-color: #d1d1d1;
 }
 
-.main__button-1 {
+.main__button-small {
   margin-right: 1rem;
 }
 

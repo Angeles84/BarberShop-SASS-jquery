@@ -10,6 +10,7 @@ h3 {
     font-weight: $super-black;
     font-size: $x-large;
     font-style: italic;
+    color: $raisin-black;
    
 }
 h4 {
@@ -22,14 +23,14 @@ h4 {
 h5 {
     font-family: $playfair;     //12 de abril de 2018
     font-weight: $regular;
-    font-weight: $large;
+    font-size: $large;
     color: $nickel;
 }
 
 p {
     font-family: $roboto;
     font-size: $medium;
-    font-weight: $light-3;
+    font-weight: $regular;
     color: $nickel;
-    line-height: 2.2rem;
+    line-height: 2.7rem;
 }
