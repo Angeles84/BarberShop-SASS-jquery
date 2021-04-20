@@ -13,11 +13,18 @@
        }
 }
 
+@media (max-width:768px) {
+    .main__container {
+        max-width: 350px;
+        padding: 0;
+    }
+}
+
 .pagination__sec {
     background-color: $platinum;
 
     .pagination__container {
-        max-width: 260px;
+        max-width: 265px;
         text-align: center;
         padding-top: 3.3rem;
         padding-bottom: 2.3rem;
@@ -76,28 +83,29 @@
     }
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
       .naomi__foto{
           width: 10rem;
           border-radius: 130px;
-          margin-left: 2.2rem;
+          margin-left: 3.2rem;
     
       }
       .naomi__title {
           text-align: center;
           margin-left: 0;
+          padding-left: 0;
       }
       .naomi__subtitle {
           text-align: center;
-          margin-left: 1rem;
+          margin-left: 0.9rem;
       }
     
 }
-@media (max-width:768px) {
+@media (max-width: 768px) {
       .naomi {
           padding-bottom: 4rem;
       }
       .naomi__container {
-          max-width: 220px;
+          max-width: 260px;
       }
 }

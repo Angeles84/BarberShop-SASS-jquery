@@ -10824,16 +10824,16 @@ p {
   width: 7rem;
 }
 
-nav .nav-link {
+.nav .nav-link {
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 300;
 }
-nav .nav__item-blog {
+.nav .nav__item-blog {
   color: #e56353;
   transition: all 0.5s ease;
 }
-nav .nav__item-blog:hover {
+.nav .nav__item-blog:hover {
   color: #ecbcba;
 }
 
@@ -10979,4 +10979,4 @@ nav .nav__item-blog:hover {
   margin-right: 1rem;
 }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.ccss.map */

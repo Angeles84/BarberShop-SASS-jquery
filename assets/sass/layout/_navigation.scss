@@ -1,10 +1,15 @@
 .logo {
   .logo__image { 
-    width: 6rem;
+    width: 7rem;
 }
 }
 
-nav {
+.nav {
+  .nav-link {
+    font-family: $roboto;
+    font-size: $medium;
+    font-weight: $light-3;
+  }
   .nav__item-blog {
     color: $fuzzy-wuzzy;
     transition: all 0.5s ease;

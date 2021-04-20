@@ -1,20 +1,21 @@
 .header__container {
   padding-top: 16.5rem;
-  max-width: 800px;
+  max-width: 710px;
+  
+    .header__title {
+     color: $white;
+     text-align: center;
+  }
 }
 
 @media (max-width:768px) {
    .header__container {
     padding-top: 14rem;
-    max-width: 600px;
    }
+   .header__title {
+    margin: 0;
+  }
 }
-
-.header__title {
-    color: $white;
-    text-align: center;
-}
-
 
 .header__icono-flecha {
     margin-top: 11rem;
