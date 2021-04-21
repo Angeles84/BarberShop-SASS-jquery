@@ -10828,11 +10828,11 @@ p {
 }
 @media (max-width: 374px) {
   .header__container {
-    padding-top: 15rem;
+    padding-top: 15.5rem;
   }
 
   .header__icono-flecha {
-    margin-top: 12rem;
+    margin-top: 11rem;
     width: 3rem;
   }
 }
@@ -10999,7 +10999,7 @@ p {
 
 @media (max-width: 768px) {
   .footer .footer__logo {
-    width: 6.2rem;
+    width: 5.2rem;
     padding-top: 5.5rem;
     padding-bottom: 4.5rem;
   }
