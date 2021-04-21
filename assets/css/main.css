@@ -10807,7 +10807,7 @@ p {
   }
 
   .header__title {
-    font-size: 36px;
+    font-size: 40px;
   }
 }
 @media (min-width: 375px) and (max-width: 768px) {
@@ -10816,8 +10816,8 @@ p {
   }
 
   .header__title {
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     padding-top: 8rem;
   }
 
@@ -10828,7 +10828,7 @@ p {
 }
 @media (max-width: 374px) {
   .header__container {
-    padding-top: 16rem;
+    padding-top: 15rem;
   }
 
   .header__icono-flecha {
