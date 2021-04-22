@@ -1,9 +1,17 @@
-$(document).ready(function () {
-   
-    var width = $(window).width();
-    $(window).resize(function () {
-        if (width <= '720') {
-            $('#ulpag').addClass('.pagination-sm');
-        }
+$(function(){
+
+    $("a").click(function(event){
+      if (this.hash !== "") {
+        event.preventDefault();
+  
+        var gato = this.hash;
+  
+        $("html, body").animate({
+          scrollTop: $(gato).offset().top
+        }, 800, function(){
+          window.location.hash = gato;
+        });
+      }
     });
-})
+  
+  });
