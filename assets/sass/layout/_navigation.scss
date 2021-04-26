@@ -5,24 +5,18 @@
 }
 
 .nav {
+  background-color: $eerie-black !important;
   .nav-link {
     font-family: $roboto;
     font-size: $medium;
     font-weight: $light-3;
   }
   .nav__item-blog {
-    color: $fuzzy-wuzzy;
-    transition: all 0.5s ease;
+    color: $fuzzy-wuzzy !important;
+    transition: all 1s ease;
     &:hover {
-      color: $spanish-pink;
+      color: $spanish-pink !important;
     }
   }
 }
 
-.nav__item-link {
-  transition: all 0.5s ease;
-  color: $white;
-  &:hover {
-    color: $light-gray;
-  }
-}
